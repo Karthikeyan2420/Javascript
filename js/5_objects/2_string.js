@@ -90,3 +90,81 @@ for (let char of str) {
 }
 
 console.log("== End of JavaScript String and String Functions ==");
+
+
+
+/*// JavaScript String Check Operations
+
+console.log("== JavaScript String Check Operations ==");
+
+let str = "Hello, JavaScript World!";
+console.log("Sample string:", str);
+
+// 1. Check if a string is empty
+console.log("Is the string empty?:", str.length === 0);
+
+// 2. Check if the string contains a substring
+console.log("Contains 'JavaScript'?:", str.includes("JavaScript"));
+
+// 3. Check if the string starts with a specific substring
+console.log("Starts with 'Hello'?:", str.startsWith("Hello"));
+
+// 4. Check if the string ends with a specific substring
+console.log("Ends with 'World!'?:", str.endsWith("World!"));
+
+// 5. Check if the string is uppercase
+console.log("Is the string uppercase?:", str === str.toUpperCase());
+
+// 6. Check if the string is lowercase
+console.log("Is the string lowercase?:", str === str.toLowerCase());
+
+// 7. Check if the string is numeric
+console.log("Is the string numeric?:", !isNaN(str));
+
+// 8. Check if the string contains only letters (alphabetic characters)
+console.log("Is alphabetic?:", /^[a-zA-Z]+$/.test(str));
+
+// 9. Check if the string contains only alphanumeric characters
+console.log("Is alphanumeric?:", /^[a-zA-Z0-9]+$/.test(str));
+
+// 10. Check if the string is a valid email
+let email = "example@example.com";
+console.log("Is valid email?:", /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email));
+
+// 11. Check if the string is a valid URL
+let url = "https://example.com";
+console.log("Is valid URL?:", /^(https?:\/\/)?[\w\-]+(\.[\w\-]+)+[/#?]?.*$/.test(url));
+
+// 12. Check if the string is a palindrome
+let palindromeStr = "Madam";
+let cleaned = palindromeStr.replace(/[\W_]/g, "").toLowerCase();
+console.log("Is palindrome?:", cleaned === cleaned.split("").reverse().join(""));
+
+// 13. Check if the string has any whitespace
+console.log("Has whitespace?:", /\s/.test(str));
+
+// 14. Check if the string is valid JSON
+let jsonString = '{"name":"John"}';
+try {
+    JSON.parse(jsonString);
+    console.log("Is valid JSON?:", true);
+} catch (e) {
+    console.log("Is valid JSON?:", false);
+}
+
+// 15. Check if the string contains only digits
+let digitStr = "12345";
+console.log("Contains only digits?:", /^\d+$/.test(digitStr));
+
+// 16. Count vowels and consonants
+let vowels = str.match(/[aeiou]/gi) || [];
+let consonants = str.match(/[^aeiou\s\d\W]/gi) || [];
+console.log("Vowel count:", vowels.length);
+console.log("Consonant count:", consonants.length);
+
+// 17. Check if all characters in the string are unique
+let charSet = new Set(str);
+console.log("All characters are unique?:", charSet.size === str.length);
+
+console.log("== End of JavaScript String Check Operations ==");
+ */

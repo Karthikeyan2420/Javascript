@@ -1,9 +1,13 @@
-//print hello world to the console
-//console.log("Hello world")
+// print hello world to the console
+// console.log("Hello world")
 
-/*
+
 // JavaScript Data Types
-
+let dheena=10
+dheena=20
+mafrook=27.3
+karthi="yhf12345"
+console.log(dheena,"\t\t\t",mafrook,"\n",karthi)
 // 1. Number: Represents both integer and floating-point numbers
 const integerNumber = 42;
 const floatNumber = 3.14;
@@ -46,7 +50,7 @@ const mixedArray = [42, "Hello", true, { key: "value" }];
 
 
 // Testing Outputs
-console.log("Number:", integerNumber, floatNumber);
+console.log(", integerNumber, floatNumber");
 console.log("BigInt:", bigIntNumber);
 console.log("String:", singleQuoteString, doubleQuoteString, templateString);
 console.log("Boolean:", isJavaScriptFun, isRaining);
@@ -54,7 +58,40 @@ console.log("Undefined:", uninitializedVariable);
 console.log("Null:", emptyValue);
 console.log("Symbol:", uniqueSymbol);
 console.log("Object:", person);
-console.log("Array:", arrayOfNumbers, mixedArray);*/
+console.log("Array:", arrayOfNumbers, mixedArray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

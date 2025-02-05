@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events Demo</title>
+    <style>
+        body {
+            height: 150vh; /* Added height to trigger onscroll event */
+        }
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;
+            margin: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body onload="pageLoaded()">
+
+    <h1>JavaScript Events Demo</h1>
+
+    <!-- 1. onclick Event -->
+    <button onclick="handleClick()">Click Me</button>
+
+    <!-- 2. ondblclick Event -->
+    <button ondblclick="handleDoubleClick()">Double Click Me</button>
+
+    <!-- 3. onchange Event -->
+    <select onchange="handleChange(event)">
+        <option value="Select">Select an option</option>
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+    </select>
+
+    <!-- 4. onfocus Event -->
+    <input type="text" placeholder="Focus on me" onfocus="handleFocus()">
+
+    <!-- 5. onscroll Event -->
+    <div class="box" onscroll="handleScroll()" id="scrollBox">
+        Scroll inside me
+    </div>
+
+    <script>
+        // 1. onclick Event - Triggered when the button is clicked
+        function handleClick() {
+            alert("Button Clicked!");
+        }
+
+        // 2. ondblclick Event - Triggered when the button is double-clicked
+        function handleDoubleClick() {
+            alert("Button Double Clicked!");
+        }
+
+        // 3. onload Event - Triggered when the page fully loads
+        function pageLoaded() {
+            console.log("Page Loaded Successfully!");
+        }
+
+        // 4. onchange Event - Triggered when the select box value changes
+        function handleChange(event) {
+            alert("You selected: " + event.target.value);
+        }
+
+        // 5. onfocus Event - Triggered when the input field gains focus
+        function handleFocus() {
+            console.log("Input field focused!");
+        }
+
+        // 6. onscroll Event - Triggered when scrolling inside the box
+        function handleScroll() {
+            console.log("Scrolling inside the box...");
+        }
+
+        // Adding an onscroll event to the entire window
+        window.onscroll = function () {
+            console.log("Page is being scrolled!");
+        };
+    </script>
+
+</body>
+</html>

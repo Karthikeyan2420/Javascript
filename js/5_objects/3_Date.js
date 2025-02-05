@@ -13,7 +13,7 @@ console.log("Is '2024-11-13' a valid date?:", !isNaN(validDate));
 console.log("Is 'invalid-date' a valid date?:", !isNaN(invalidDate));
 
 // 2. Check if a date is in the future
-let futureDate = new Date("2025-01-01");
+let futureDate = new Date("2025-03-01");
 console.log("Is '2025-01-01' in the future?:", futureDate > currentDate);
 
 // 3. Check if a date is in the past
@@ -22,6 +22,7 @@ console.log("Is '2023-01-01' in the past?:", pastDate < currentDate);
 
 // 4. Check if a date is today
 let todayDate = new Date();
+
 let isToday = (todayDate.toDateString() === currentDate.toDateString());
 console.log("Is today the current date?:", isToday);
 

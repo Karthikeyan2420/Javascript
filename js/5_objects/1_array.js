@@ -46,7 +46,7 @@ console.log("Array.findIndex:", arr.findIndex(el => el > 20)); // Finds index of
 // 7. Filtering and Mapping
 let evenNumbers = arr.filter(el => el % 2 === 0); // Filters even numbers
 console.log("Array.filter:", evenNumbers);
-let doubledArray = arr.map((el) =>{ el * 2}); // Doubles each element
+let doubledArray = arr.map((el) =>{ return el * 2}); // Doubles each element
 console.log("Array.map:", doubledArray);
 
 // 8. Reducing and Summing

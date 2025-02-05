@@ -1,13 +1,13 @@
 // print hello world to the console
-// console.log("Hello world")
+console.log("Hello world")
 
 
 // JavaScript Data Types
-let dheena=10
-dheena=20
-mafrook=27.3
-karthi="yhf12345"
-console.log(dheena,"\t\t\t",mafrook,"\n",karthi)
+let numb=10
+numb=20
+float1=27.3
+string1="yhf12345"
+console.log(numb,"\t\t\t",float1,"\n",string1)
 // 1. Number: Represents both integer and floating-point numbers
 const integerNumber = 42;
 const floatNumber = 3.14;
@@ -34,7 +34,7 @@ const emptyValue = null;
 const uniqueSymbol = Symbol("unique");
 
 // 8. Object: Collection of key-value pairs or complex entities
-const person = {
+const person1 = {
     name: "Alice",
     age: 25,
     greet: function() {
@@ -57,7 +57,7 @@ console.log("Boolean:", isJavaScriptFun, isRaining);
 console.log("Undefined:", uninitializedVariable);
 console.log("Null:", emptyValue);
 console.log("Symbol:", uniqueSymbol);
-console.log("Object:", person);
+console.log("Object:", person1);
 console.log("Array:", arrayOfNumbers, mixedArray);
 
 

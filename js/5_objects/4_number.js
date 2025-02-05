@@ -92,3 +92,8 @@ let localeNumber = 1234567.89;
 console.log("Formatted number (locale):", localeNumber.toLocaleString('en-US'));  // "1,234,567.89"
 
 console.log("== End of JavaScript Number Built-in Functions and Properties ==");
+
+
+let num = new Object(123.456);
+console.log(Number.isInteger(num));
+console.log(Number.parseInt(num));

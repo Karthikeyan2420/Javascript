@@ -7,7 +7,7 @@ let x = 10;
 console.log("Assignment (=):", x);
 x += 5; // x = x + 5
 console.log("Addition assignment (+=):", x);
-x -= 3; // x = x - 3
+x -= 5; // x = x - 3
 console.log("Subtraction assignment (-=):", x);
 x *= 2; // x = x * 2
 console.log("Multiplication assignment (*=):", x);
